@@ -1,0 +1,9 @@
+1. What happens when the number of hidden nodes increases? 
+	• More hidden nodes allow the network to learn more complex patterns.
+	• The risk of overfitting increases
+	• Increase training time.
+	• The model might take longer to converge, and finding the right hyperparameters becomes more critical.
+2. Can you explain the pattern of accuracy when the hidden nodes increase?  
+	• Low Number of Hidden Nodes - The model may underfit and show lower accuracy due to insufficient capacity to learn complex patterns.
+	• Moderate Number of Hidden Nodes - Accuracy typically improves as the model captures more complex patterns.
+	• High Number of Hidden Nodes - Accuracy may start to plateau or decline due to overfitting, where the model performs well on training data but poorly on validation or test data.
